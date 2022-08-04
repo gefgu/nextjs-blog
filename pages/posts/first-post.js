@@ -1,5 +1,14 @@
+import Link from "next/link";
+
 export default function FirstPost() {
   return (
-    <h1>Learn Next.js!</h1>
-  )
+    <>
+      <h1>First Post</h1>
+      <h2>
+        <Link href="/">
+          <a>Back To home</a>
+        </Link>
+      </h2>
+    </>
+  );
 }
